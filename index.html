@@ -1,36 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Mehrub Hasan - Data Analyst Portfolio</title>
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="assets/css/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mehrub Hasan | Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <nav>
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
 
-  <header class="hero">
-    <h1>Hello, I'm Mehrub Hasan</h1>
-    <p>Aspiring Data Analyst | Data Science Enthusiast</p>
-  </header>
+    <header class="site-header">
+        <div class="container">
+            <h1 class="site-logo"><a href="index.html">Mehrub Hasan</a></h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#portfolio">Work</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-  <section class="intro">
-    <h2>Welcome to my portfolio</h2>
-    <p>I analyze data to uncover insights that drive decisions and create value. Explore my projects and skills below.</p>
-  </section>
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <p class="hero-intro">Hello, I'm Mehrub Hasan,</p>
+                <h2 class="hero-title">A **[Your Profession/Specialty]** <br>with a passion for **[Your Passion/Focus]**.</h2>
+                <a href="#portfolio" class="button primary-button">View My Work</a>
+            </div>
+        </section>
 
-  <footer>
-    <p>© 2025 Mehrub Hasan</p>
-  </footer>
+        <section id="portfolio" class="portfolio-section">
+            <div class="container">
+                <h3 class="section-title">My Recent Work</h3>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <img src="assets/images/project-thumbnail-1.jpg" alt="Project 1 Thumbnail">
+                        <div class="item-overlay">
+                            <h4>Project Title One</h4>
+                            <p>UX/UI Design</p>
+                            <a href="projects/project-1.html" class="button secondary-button">View Project</a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item">
+                        <img src="assets/images/project-thumbnail-2.jpg" alt="Project 2 Thumbnail">
+                        <div class="item-overlay">
+                            <h4>Project Title Two</h4>
+                            <p>Web Development</p>
+                            <a href="projects/project-2.html" class="button secondary-button">View Project</a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item">
+                        <img src="assets/images/project-thumbnail-3.jpg" alt="Project 3 Thumbnail">
+                        <div class="item-overlay">
+                            <h4>Project Title Three</h4>
+                            <p>Branding</p>
+                            <a href="projects/project-3.html" class="button secondary-button">View Project</a>
+                        </div>
+                    </div>
+
+                    </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <h3 class="section-title">About Me</h3>
+                <div class="about-content">
+                    <img src="assets/images/your-headshot.jpg" alt="Mehrub Hasan Headshot" class="about-image">
+                    <div class="about-text">
+                        <p>Hi there! I'm Mehrub Hasan, a dedicated **[Your Profession]** with X years of experience in **[Your Field]**. My passion lies in creating **[e.g., intuitive user experiences, robust web applications, compelling visual narratives]** that solve real-world problems.</p>
+                        <p>I specialize in **[List 2-3 key skills, e.g., UI/UX Design, Front-end Development, Motion Graphics]** and am always eager to learn new technologies and embrace creative challenges.</p>
+                        <p>When I'm not **[Your work activity]**, you can find me **[Your hobby/interest]**. Let's connect!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h3 class="section-title">Get In Touch</h3>
+                <p class="contact-intro">Have a project in mind or just want to say hello? I'm always open to new opportunities and collaborations.</p>
+                <a href="mailto:your.email@example.com" class="button primary-button">Email Me</a>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/yourprofile" target="_blank">GitHub</a>
+                    </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Mehrub Hasan. All rights reserved.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
-
