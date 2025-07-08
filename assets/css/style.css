@@ -262,7 +262,7 @@ section {
 
 .about-image {
     width: 200px;
-    height: 200px;
+    height: 225px;
     border-radius: 50%; /* Circular image */
     object-fit: cover;
     border: 5px solid var(--primary-bg); /* White border for contrast */
